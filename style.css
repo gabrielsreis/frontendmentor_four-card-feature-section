@@ -48,7 +48,6 @@ body {
     padding: 5px;
     border-radius: 7px;
     box-shadow: 2px 8px 20px hsl(231, 17%, 85%)
-
 }
 
 .card-1 {
@@ -121,6 +120,7 @@ body {
         grid-template-columns: repeat(3, 330px);
         grid-template-rows: 2;
         justify-content: center;
+        margin-top: 50px;
     }
 
    .card {
@@ -131,12 +131,12 @@ body {
         transform: translateY(50%);
    }
 
-   .card-3 {
-        transform: translateY(50%);
-
+   .card-4 {
+        grid-column: 3 / 4;
+        transform: translateY(-59%);
    }
 
-    .card-4 {
+    .card-3 {
         grid-column: 2 / 3;
     }
 
